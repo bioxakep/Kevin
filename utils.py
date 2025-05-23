@@ -159,12 +159,8 @@ def split_by_silence(
 
 
 if __name__ == "__main__":
-    # check_audio_playing_status()
-    # convert_audio_file(
-    # 	file_path=r'/Users/bioxakep/IdeaProjects/KevinAssistant/audio_files/FROM_TEXT_20250521081840.ogg',
-    # 	audio_format='wav'
-    # )
+
     files = split_by_silence(
-        file_path=r"/Users/bioxakep/IdeaProjects/KevinAssistant/audio_files/FROM_TEXT_20250521081840.wav",
+        file_path=r"/Users/bioxakep/IdeaProjects/.../FROM_TEXT_20250521081840.wav",
         min_sound_len=10000,
     )
