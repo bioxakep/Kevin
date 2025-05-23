@@ -111,10 +111,10 @@ if __name__ == "__main__":
         raise Exception("Не выбрана модель для транскрибации")
     vr = VoiceRecognizer(selected_model)
     test_wav_file_path: str = (
-        r"/Users/bioxakep/IdeaProjects/KevinAssistant/audio_files/FROM_TEXT_20250521081840.wav"
+        r"/Users/bioxakep/IdeaProjects/.../FROM_TEXT_20250521081840.wav"
     )
     text = vr.recognize_wav(
-        wav_file_path=r"/Users/bioxakep/IdeaProjects/KevinAssistant/audio_files/russian_speech.wav",
+        wav_file_path=r"/Users/bioxakep/IdeaProjects/.../russian_speech.wav",
         max_audio_duration=20,
         frame_rate=VoiceRecognizer.FREQ_16,
     )
